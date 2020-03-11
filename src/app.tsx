@@ -6,7 +6,8 @@ import { getStore } from './utils/reduxUtils'
 import * as log from './utils/log';
 
 import Root from './root';
-
+import { LocaleProvider } from 'antd';
+import zhCN from 'antd/es/locale/zh_CN';
 declare var module: any;
 
 const render = (Component: any) => {
@@ -14,9 +15,11 @@ const render = (Component: any) => {
     const { store, history } = getStore(rootReducer, 'hash');
 
     ReactDOM.render(
-        <AppContainer>
-            <Component store={store} history={history} />
-        </AppContainer>
+        <LocaleProvider locale={zhCN}>
+            <AppContainer>
+                <Component store={store} history={history} />
+            </AppContainer>
+        </LocaleProvider>
         , document.getElementById('app')
     )
 }

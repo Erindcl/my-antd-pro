@@ -11,5 +11,9 @@ export default [
         id: 'button',
         name: 'button(按钮)',
         link: '/button'
+    }, {
+        id: 'modal',
+        name: 'modal(弹框))',
+        link: '/modal'
     }
 ]

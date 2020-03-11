@@ -5,6 +5,7 @@ module.exports = (basename = '/') => {
     return {
         'icon-url': `"${basename}public/iconfont/iconfont"`,
         'primary-color': '#3F87FF',
+        'heading-color': '#333333',
         'font-size-base': '12px',
         'text-color': '#333333',
         'border-radius-base': '2px',
