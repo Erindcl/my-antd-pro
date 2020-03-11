@@ -6,8 +6,11 @@ import menuList from '../consts/menu';
 import { Link, hashHistory } from 'react-router';
 import styled from 'styled-components';
 const Content = styled.div`
-    min-height: calc(100vh - 104px);;
+    height: calc(100vh - 64px);
     width: 100%;
+    overflow: auto;
+    padding: 20px;
+    background: #fff;
 `;
 
 export default class Contrainer extends React.Component<any, any> {
@@ -71,7 +74,7 @@ export default class Contrainer extends React.Component<any, any> {
                             }
                         </Menu>
                     </Sider>
-                    <Layout style={{ padding: '20px', background: '#fff', minHeight: 480 }}>
+                    <Layout>
                         <Content>
                             {children || ''}
                         </Content>

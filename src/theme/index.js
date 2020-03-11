@@ -20,9 +20,14 @@ module.exports = (basename = '/') => {
         'input-placeholder-color': '#999999',
         'input-height-lg': '36px',
         'input-height-sm': '28px',
+        'input-hover-border-color': '#3F87FF',
         'modal-footer-padding-horizontal': '20px',
         'form-item-margin-bottom': '20px',
+        'label-required-color': '#FF5F5C',
         'table-header-bg': '#FAFAFA',
-        'table-padding-vertical': '19px'
+        'table-padding-vertical': '19px',
+        'item-hover-bg': '#F2F9FF',
+        'select-item-selected-bg': '#F2F9FF',
+        'select-item-selected-font-weight': 'normal'
     };
 };

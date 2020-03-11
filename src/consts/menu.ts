@@ -13,7 +13,11 @@ export default [
         link: '/button'
     }, {
         id: 'modal',
-        name: 'modal(弹框))',
+        name: 'modal(弹框)',
         link: '/modal'
+    }, {
+        id: 'form',
+        name: 'form(表单)',
+        link: '/form'
     }
 ]
