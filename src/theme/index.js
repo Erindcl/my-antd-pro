@@ -15,7 +15,7 @@ module.exports = (basename = '/') => {
         'disabled-color': '#BFBFBF',
         'disabled-bg': '#E8E8E8',
         'btn-height-sm': '28px',
-        'btn-padding-horizontal-base': '16px',
+        'btn-disable-border': '#E8E8E8',
         'input-placeholder-color': '#999999',
         'input-height-lg': '36px',
         'input-height-sm': '28px',

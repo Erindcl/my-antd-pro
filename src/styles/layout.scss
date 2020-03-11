@@ -12,7 +12,10 @@
         color: $blackBF;
     }
     .ant-menu-item > a:hover {
-        color: #FFFFFF;
+        color: $primaryColor;
+    }
+    .ant-menu-item-selected > a, .ant-menu-item-selected > a:hover {
+        color: $primaryColor;
     }
     .ant-menu-horizontal {
         border-bottom: 0px solid transparent;

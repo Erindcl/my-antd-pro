@@ -20,7 +20,7 @@ export default class LayoutPreview extends React.Component<any, any> {
                         mode="horizontal"
                         defaultSelectedKeys={['2']}
                     >
-                        <Menu.Item key="1">数据源</Menu.Item>
+                        <Menu.Item key="1"><a>数据源</a></Menu.Item>
                         <Menu.Item key="2">数据开发</Menu.Item>
                         <Menu.Item key="3">运维中心</Menu.Item>
                     </Menu>
