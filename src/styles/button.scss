@@ -107,3 +107,15 @@
 .ant-btn.ant-btn-link[disabled].active {
     color: $blackBF;
 }
+.ant-btn-danger, .ant-btn-danger.ant-btn:focus {
+    background-color: $red;
+    border-color: $red;
+    color: #fff;
+}
+.ant-btn-danger.ant-btn:hover,
+.ant-btn-danger.ant-btn:active,
+.ant-btn-danger.ant-btn.active {
+    color: #fff;
+    background-color: #ff7875;
+    border-color: #ff7875;
+}

@@ -1,0 +1,28 @@
+@import './const.scss';
+
+.ant-alert-success {
+    background-color: #DFFAE7;
+    border: 1px solid #DFFAE7;
+}
+.ant-alert-warning {
+    background-color: #FFFBE6;
+    border: 1px solid #FFFBE6;
+}
+.ant-alert-error {
+    background-color: #FFF0F1;
+    border: 1px solid #FFF0F1;
+}
+.ant-alert-info {
+    background-color: #EBF2FF;
+    border: 1px solid #EBF2FF;
+}
+.ant-notification {
+    width: 360px;
+}
+.ant-notification-notice-message {
+    font-weight: 600;
+}
+.ant-message-notice-content {
+    font-size: 14px;
+    color: $black6;
+}

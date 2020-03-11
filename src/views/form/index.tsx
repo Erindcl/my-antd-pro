@@ -115,9 +115,6 @@ export default class FormPreview extends React.Component<any, any> {
                     <Form.Item label="级联" required>
                         <Cascader options={options} placeholder="请选择" />
                     </Form.Item>
-                    <Form.Item label="时间选择" required>
-                        <TimePicker />
-                    </Form.Item>
                     <br />
                     <br />
                     <h3>其余表单：</h3>
@@ -145,6 +142,9 @@ export default class FormPreview extends React.Component<any, any> {
                             options={['北京', '上海', '厦门']}
                             defaultValue={['北京', '厦门']}
                         />
+                    </Form.Item>
+                    <Form.Item label="时间选择">
+                        <TimePicker />
                     </Form.Item>
                 </Form>
             </div>

@@ -19,5 +19,13 @@ export default [
         id: 'form',
         name: 'form(表单)',
         link: '/form'
+    }, {
+        id: 'notice',
+        name: 'notice(提示、反馈)',
+        link: '/notice'
+    }, {
+        id: 'other',
+        name: 'other(其他)',
+        link: '/other'
     }
 ]
