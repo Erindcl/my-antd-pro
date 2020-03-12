@@ -3,15 +3,35 @@
 .ant-table {
     color: $black3;
 }
-.ant-table-thead > tr > th {
+.ant-table-thead,> tr > th {
     padding: 13px 8px;
-}
-.ant-table-thead {
-    .ant-checkbox {
-        display: none;
-    }
+    border-bottom: 0px solid #fff;
 }
 .ant-table-tbody > tr > td {
     padding: 19px 8px;
     border-bottom: 1px solid $blackDD;
+}
+.ant-table colgroup > col.ant-table-selection-col {
+    width: 50px;
+}
+.ant-table-thead > tr > th.ant-table-selection-column {
+    padding: 13px 0px 13px 20px;
+    text-align: left;
+}
+.ant-table-tbody > tr > td.ant-table-selection-column {
+    padding: 19px 0px 19px 20px;
+    text-align: left;
+}
+.ant-table-thead > tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td,
+.ant-table-tbody > tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td,
+.ant-table-thead > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td,
+.ant-table-tbody > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td {
+    background: transparent;
+    box-shadow: 0 8px 8px -5px rgba(6,14,26,0.08), 0 -8px 8px -5px rgba(6,14,26,0.08);
+}
+.ant-pagination-total-text {
+    color: #666666;
+}
+.ant-pagination.mini .ant-pagination-item {
+    border: 1px solid transparent;
 }

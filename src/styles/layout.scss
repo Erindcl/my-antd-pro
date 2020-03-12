@@ -1,15 +1,15 @@
 @import './const.scss';
 
-.my-layout-header {
+.dt-layout-header {
     background: #080A1A;
     .ant-menu {
         background: transparent;
-        color: $blackBF;
+        color: #ABB2C2;
         line-height: 64px;
         font-size: $font16;
     }
     .ant-menu-item > a {
-        color: $blackBF;
+        color: #ABB2C2;
     }
     .ant-menu-item > a:hover {
         color: $primaryColor;
@@ -36,15 +36,15 @@
     }
 }
 
-.my-layout-sider {
+.dt-layout-sider {
     background: #111426;
     padding-top: 20px;
     .ant-menu {
         background: transparent;
-        color: $blackBF;
+        color: #ABB2C2;
     }
     .ant-menu-item > a {
-        color: $blackBF;
+        color: #ABB2C2;
     }
     .ant-menu-item > a:hover {
         color: #FFFFFF;
@@ -66,10 +66,10 @@
         color: #FFFFFF;
     }
     .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
-        background-color: #122241;
+        background-color: rgba(40, 123, 247, 0.157);
     }
     .ant-menu-item:active, .ant-menu-submenu-title:active {
-        background-color: #122241;
+        background-color: rgba(40, 123, 247, 0.157);
     }
     .ant-menu-inline .ant-menu-item:after, .ant-menu-vertical .ant-menu-item:after {
         content: "";

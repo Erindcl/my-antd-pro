@@ -15,7 +15,7 @@
     width: 460px !important;
 }
 .ant-modal-confirm .ant-modal-body {
-    padding: 40px 20px 20px 32px;
+    padding: 52px 20px 20px 32px;
 }
 .ant-modal-confirm-body .ant-modal-confirm-title {
     font-size: 16px;
@@ -27,4 +27,14 @@
 }
 .ant-modal-confirm .ant-modal-confirm-btns {
     margin-top: 32px;
+}
+.ant-modal-confirm-body > .anticon {
+    font-size: 20px;
+    margin-right: 8px;
+}
+.ant-modal-confirm-body > .anticon + .ant-modal-confirm-title + .ant-modal-confirm-content {
+    margin-left: 30px;
+}
+.ant-modal-confirm .ant-modal-confirm-btns {
+    margin-top: 36px;
 }

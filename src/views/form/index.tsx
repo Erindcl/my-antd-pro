@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './style.scss';
-import { Form, Input, Select, TreeSelect, Cascader, Radio, Switch, Checkbox, TimePicker } from 'antd';
+import { Form, Input, Select, TreeSelect, Cascader, Radio, Switch, Checkbox, TimePicker, InputNumber, DatePicker } from 'antd';
 const { Option } = Select;
 const { TreeNode } = TreeSelect;
 const CheckboxGroup = Checkbox.Group;
@@ -145,6 +145,12 @@ export default class FormPreview extends React.Component<any, any> {
                     </Form.Item>
                     <Form.Item label="时间选择">
                         <TimePicker />
+                    </Form.Item>
+                    <Form.Item label="数字输入框">
+                        <InputNumber defaultValue={2} />
+                    </Form.Item>
+                    <Form.Item label="日期输入框">
+                        <DatePicker />
                     </Form.Item>
                 </Form>
             </div>

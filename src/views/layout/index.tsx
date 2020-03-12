@@ -14,7 +14,7 @@ export default class LayoutPreview extends React.Component<any, any> {
     render() {
         return (
             <Layout className="layout-preview">
-                <Header className="header my-layout-header">
+                <Header className="header dt-layout-header">
                     <div className="logo" />
                     <Menu
                         mode="horizontal"
@@ -26,7 +26,7 @@ export default class LayoutPreview extends React.Component<any, any> {
                     </Menu>
                 </Header>
                 <Layout>
-                    <Sider width={180} className="my-layout-sider">
+                    <Sider width={180} className="dt-layout-sider">
                         <Menu
                             mode="inline"
                             defaultSelectedKeys={['1']}

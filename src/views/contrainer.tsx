@@ -47,7 +47,7 @@ export default class Contrainer extends React.Component<any, any> {
         const { current } = this.state;
         return (
             <Layout className="Contrainer">
-                <Header className="my-layout-header">
+                <Header className="dt-layout-header">
                     <div className="logo" />
                     <Menu
                         mode="horizontal"
@@ -59,7 +59,7 @@ export default class Contrainer extends React.Component<any, any> {
                     </Menu>
                 </Header>
                 <Layout>
-                    <Sider width={180} className="my-layout-sider">
+                    <Sider width={180} className="dt-layout-sider">
                         <Menu
                             mode="inline"
                             selectedKeys={[current]}

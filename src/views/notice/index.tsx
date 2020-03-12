@@ -14,6 +14,7 @@ export default class NoticePreview extends React.Component<any, any> {
         switch (type) {
             case 'success': {
                 notification.success({
+                    duration: null,
                     message: '提交成功',
                     description: '你提交的信息已经成功上传。'
                 });
@@ -21,6 +22,7 @@ export default class NoticePreview extends React.Component<any, any> {
             }
             case 'warning': {
                 notification.warning({
+                    duration: null,
                     message: '警告',
                     description: '数据库的空间已不足3MB，请清理掉垃圾文件！'
                 });
@@ -28,6 +30,7 @@ export default class NoticePreview extends React.Component<any, any> {
             }
             case 'error': {
                 notification.error({
+                    duration: null,
                     message: '请求失败',
                     description: '数据库中没有匹配到该字段，请检查后再请求！'
                 });
