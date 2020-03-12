@@ -159,6 +159,19 @@ export default class TablePreview extends React.Component<any, any> {
                     scroll={{ x: 2000, y: 150 }}
                     pagination={pagination}
                 />
+                <br />
+                <br />
+                <br />
+                <br />
+                <h3>弹框等浮层里面小一点的表格：</h3>
+                <Table
+                    style={{ border: '1px solid #DDDDDD' }}
+                    rowSelection={rowSelection}
+                    columns={columns}
+                    size={'middle'}
+                    dataSource={data}
+                    pagination={pagination}
+                />
             </div>
             
         )
